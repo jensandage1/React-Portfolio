@@ -1,3 +1,10 @@
 h1 {
    font-weight: bolder;
 }
+
+.about {
+    background-color: #38A3A5;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
