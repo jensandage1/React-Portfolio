@@ -3,4 +3,17 @@
     display: flex;
     justify-content: space-around;
     padding: 15px;
+    position:absolute;
+    width: 100%;
+}
+
+a {
+    background-color: #80ED99;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact {
+    background-color: #80ED99;
+    font-weight: bold;
 }

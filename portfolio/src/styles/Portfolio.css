@@ -1,0 +1,55 @@
+.portfolio-title {
+    background-color: #38A3A5;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 10px;
+    
+}
+
+@media (max-width:490px) {
+    img {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+figcaption {
+    display: flex;
+    justify-content: center;
+    font-size: 2vh;
+    border: solid 2px white;
+    border-radius: 4px;
+    margin: 3px;
+}
+ 
+.links {
+    background-color: #38A3A5;
+    color: black;
+}
+
+.links:hover {
+    color: #C7F9CC;
+}
+
+.app-title {
+    display: flex;
+    justify-content: center;
+    background-color: #57cc99;
+}
+
+figure {
+    background-color: #57cc99;
+    padding: 15px;
+    border: solid 2px black;
+    border-radius: 8px;
+}
