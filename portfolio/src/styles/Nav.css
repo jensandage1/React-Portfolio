@@ -1,18 +1,17 @@
 .nav {
     background-color: #22577A;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px;
-    width: 100%;
   }
 
   h1 {
-    font-size: 2em;
+    font-size: 6vh;
     background-color: #22577A;
   }
   h2{
-    font-size: 1em;
+    font-size: 4vh;
     background-color: #22577A;
   }
 

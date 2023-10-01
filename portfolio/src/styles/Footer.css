@@ -2,9 +2,8 @@
     background-color: #80ED99;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 15px;
-    position:absolute;
-    width: 100%;
 }
 
 a {

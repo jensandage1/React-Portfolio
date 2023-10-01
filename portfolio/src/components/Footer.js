@@ -1,12 +1,12 @@
 import "../styles/Footer.css";
-import Contact from "./Contact";
 
 export default function Footer() {
     return (
         <div className="footer">
             <a href="https://github.com/jensandage1">Github</a>
             <a href="https://www.linkedin.com/in/jennifer-sandage-469899130/">LinkedIn</a>
-            <Contact />
+            <a href="https://stackoverflow.com/users/22667679/jennifer-sandage">Stack Overflow</a>
+
 
         </div>
     )
