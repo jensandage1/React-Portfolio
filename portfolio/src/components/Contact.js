@@ -1,7 +1,9 @@
+import ContactForm from "./ContactForm";
+
 export default function Contact(){
     return (
         <div className="contact">
-            Contact Me
+            <ContactForm />
         </div>
     );
 }

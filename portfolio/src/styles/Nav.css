@@ -24,3 +24,33 @@
       line-height: 0
     }
   }
+
+.nav-about {
+ color: black;
+ background-color: #22577a;
+}
+
+.nav-portfolio {
+  color: black;
+  background-color: #22577a;
+}
+
+.nav-resume {
+  color: black;
+  background-color: #22577a;
+}
+
+.nav-contact {
+  color: black;
+  background-color: #22577a;
+}
+
+  .nav-active-button {
+    color: white;
+    background-color: #22577a;
+  }
+
+  a {
+    background-color: #22577a;
+    text-decoration: none;
+  }

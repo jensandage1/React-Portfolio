@@ -2,6 +2,7 @@ import '../styles/AboutMe.css'
 import profilePicture from '../utils/images/jen.jpg'
 
 export default function AboutMe(){
+    
     return (
         <div className="about">
             <h1 id="about-me-title"> About Me </h1>
