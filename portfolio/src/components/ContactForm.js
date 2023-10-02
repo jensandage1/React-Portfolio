@@ -44,38 +44,53 @@ export default function Form () {
     }
 
     return (
-        <div>
-            <h1>Contact Form</h1>
+        <div className="contact-page">
+            <h1 id="contact-title">Contact Form</h1>
+            <p>Feel free to send me a short message using the form below. <br></br>You can also contact me through the links at the bottom of the page</p>
             <form className="form" >
+                <div className="row"> 
+                    <label for="inputFirstName">First Name</label>
                 <input
                 value={firstName}
                 name="firstName"
                 onChange={handleInputChange}
                 type="text"
                 placeholder="First Name"
+                id="inputFirstName"
                 />
+                    <label for="inputLastName">Last Name</label>
                 <input
                 value={lastName}
                 name="lastName"
                 onChange={handleInputChange}
                 type="text"
                 placeholder="Last Name"
+                id="inputLastName"
                 />
+                </div>
+                <div className="row">
+                    <label for="inputEmail">Email</label>
                 <input
                 value={email}
                 name="email"
                 onChange={handleInputChange}
                 type="email"
-                placeholder="Email"
+                placeholder="example@gmail.com"
+                id="inputEmail"
                 />
+                <div className="row">
+                </div>
+                    <label for="inputMessage">Message</label>
                 <input
                 value={message}
                 name="message"
                 onChange={handleInputChange}
                 type="text"
                 placeholder="Type your message here."
+                id="inputMessage"
                 />
-                <button type="button" onClick={handleFormSubmit}>Submit</button>
+                </div>
+                <button className="btn btn-primary btn-sm" type="button" onClick={handleFormSubmit}>Submit</button>
             </form>
             {errorMessage && (
         <div>

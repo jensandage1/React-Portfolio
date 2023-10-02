@@ -1,0 +1,49 @@
+.contact-page{
+    min-height: 100vh;
+}
+
+#contact-title {
+    background-color: #38A3a5;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: #38a3a5;
+}
+
+.btn {
+    background-color: #80ed99;
+    color: black;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#inputFirstName {
+    background-color: #c7f9cc;
+}
+
+#inputLastName {
+    background-color: #c7f9cc;
+}
+
+#inputEmail {
+    background-color: #c7f9cc;
+}
+
+#inputMessage {
+    background-color: #c7f9cc;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
