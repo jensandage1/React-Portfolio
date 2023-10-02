@@ -3,27 +3,33 @@
 }
 
 .portfolio-title {
-    background-color: #38A3A5;
+    background-color: #3dccc7;
     display: flex;
     justify-content: center;
+    margin: 20px;
 }
 
 .flex-container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-img {
+.portfolio-img {
     width: 200px;
     height: 150px;
     margin-bottom: 10px;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (max-width:490px) {
     img {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        margin-left: auto;
+    margin-right: auto;
     }
 }
 
@@ -37,23 +43,26 @@ figcaption {
 }
  
 .links {
-    background-color: #38A3A5;
+    background-color: #3dccc7;
     color: black;
 }
 
 .links:hover {
-    color: #C7F9CC;
+    color: #c4fff9;
 }
 
 .app-title {
     display: flex;
     justify-content: center;
-    background-color: #57cc99;
+    background-color: #68d8d6;
 }
 
 figure {
-    background-color: #57cc99;
+    background-color: #68d8d6;
     padding: 15px;
     border: solid 2px black;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

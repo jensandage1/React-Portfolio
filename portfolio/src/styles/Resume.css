@@ -7,7 +7,7 @@
 }
 
 .resume-title {
-    background-color: #38A3a5;
+    background-color: #3dccc7;
     display: flex;
     justify-content: center;
     margin: 20px;
@@ -18,21 +18,19 @@
     flex-direction: column;
     justify-content: center;
     padding: 2rem; 
-    
-    margin-bottom: 30px;
-   
+    margin-bottom: 30px; 
 }
 
 .proficiencies {
-    background-color: #38A3A5;
+    background-color: #3dccc7;
     text-decoration: underline;
-    font-size: 2.5vw;
+    font-size: 25px;
 }
 
 li {
     padding-bottom: 4px;
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 20px;
 }
 
 .resume-card {
@@ -55,4 +53,27 @@ li {
 .download {
     width: 35vw;
     margin-bottom: 5px;
+}
+
+@media(max-width: 800px) {
+    .resume-body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+        margin: space-between;  
+    }
+    .prof-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem; 
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .download{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

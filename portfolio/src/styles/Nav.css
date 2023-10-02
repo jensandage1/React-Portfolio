@@ -1,6 +1,6 @@
 
 .nav {
-    background-color: #22577A;
+    background-color: #0c6461;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -9,12 +9,12 @@
 
   h1 {
     font-size: 6vh;
-    background-color: #22577A;
+    background-color: #0c6461;
   }
 
   h2{
     font-size: 4vh;
-    background-color: #22577A;
+    background-color: #0c6461;
   }
 
   @media (max-width: 495px) {
@@ -29,36 +29,36 @@
 
 .nav-about {
  color: black;
- background-color: #22577a;
+ background-color: #0c6461;
 }
 
 .nav-portfolio {
   color: black;
-  background-color: #22577a;
+  background-color: #0c6461;
 }
 
 .nav-resume {
   color: black;
-  background-color: #22577a;
+  background-color: #0c6461;
 }
 
 .nav-contact {
   color: black;
-  background-color: #22577a;
+  background-color: #0c6461;
 }
 
   .nav-active-button {
     color: white;
-    background-color: #22577a;
+    background-color: #0c6461;
   }
 
   a {
-    background-color: #22577A;
+    background-color: #0c6461;
     text-decoration: none;
   }
 
   #nav-name {
-    color: #80ed99;
+    color: #9ceaef;
     text-shadow: 1px 0 10px #0b0025;
   }
 

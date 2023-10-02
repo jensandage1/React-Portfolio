@@ -3,7 +3,7 @@
 }
 
 #contact-title {
-    background-color: #38A3a5;
+    background-color: #3dccc7;
     display: flex;
     justify-content: center;
     margin: 20px;
@@ -16,30 +16,30 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    background-color: #38a3a5;
+    background-color: #3dccc7;
 }
 
 .btn {
-    background-color: #80ed99;
+    background-color: #9ceaef;
     color: black;
     margin-top: 10px;
     font-weight: bold;
 }
 
 #inputFirstName {
-    background-color: #c7f9cc;
+    background-color: #c4fff9;
 }
 
 #inputLastName {
-    background-color: #c7f9cc;
+    background-color: #c4fff9;
 }
 
 #inputEmail {
-    background-color: #c7f9cc;
+    background-color: #c4fff9;
 }
 
 #inputMessage {
-    background-color: #c7f9cc;
+    background-color: #c4fff9;
 }
 
 p {

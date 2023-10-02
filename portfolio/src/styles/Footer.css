@@ -1,5 +1,5 @@
 .footer {
-    background-color: #80ED99;
+    background-color: #9ceaef;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -8,12 +8,12 @@
 }
 
 .a-link {
-    background-color: #80ED99;
+    background-color: #9ceaef;
     text-decoration: none;
     font-weight: bold;
 }
 
 .contact {
-    background-color: #80ED99;
+    background-color: #9ceaef;
     font-weight: bold;
 }
