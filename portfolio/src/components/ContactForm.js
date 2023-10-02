@@ -26,6 +26,7 @@ export default function Form () {
         }
     };
 
+
     const handleFormSubmit = (e) => {
         e.preventDefault();
 
@@ -35,12 +36,14 @@ export default function Form () {
             );
             return;
         }
+        
         alert('Thank you! Your message has been sent.');
 
         setFirstName('');
         setLastName('');
         setEmail('');
         setMessage('');
+        setErrorMessage('');
     }
 
     return (
@@ -49,42 +52,46 @@ export default function Form () {
             <p>Feel free to send me a short message using the form below. <br></br>You can also contact me through the links at the bottom of the page</p>
             <form className="form" >
                 <div className="row"> 
-                    <label for="inputFirstName">First Name</label>
+                    <label htmlFor="inputFirstName">First Name</label>
                 <input
                 value={firstName}
                 name="firstName"
                 onChange={handleInputChange}
+                required
                 type="text"
                 placeholder="First Name"
                 id="inputFirstName"
                 />
-                    <label for="inputLastName">Last Name</label>
+                    <label htmlFor="inputLastName">Last Name</label>
                 <input
                 value={lastName}
                 name="lastName"
                 onChange={handleInputChange}
+                required
                 type="text"
                 placeholder="Last Name"
                 id="inputLastName"
                 />
                 </div>
                 <div className="row">
-                    <label for="inputEmail">Email</label>
+                    <label htmlFor="inputEmail">Email</label>
                 <input
                 value={email}
                 name="email"
                 onChange={handleInputChange}
+                required
                 type="email"
                 placeholder="example@gmail.com"
                 id="inputEmail"
                 />
                 <div className="row">
                 </div>
-                    <label for="inputMessage">Message</label>
+                    <label htmlFor="inputMessage">Message</label>
                 <input
                 value={message}
                 name="message"
                 onChange={handleInputChange}
+                required
                 type="text"
                 placeholder="Type your message here."
                 id="inputMessage"
