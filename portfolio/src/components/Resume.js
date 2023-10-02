@@ -9,8 +9,8 @@ export default function Resume(){
             <h1 className="resume-title">Resume</h1>
         <div className="resume-body">
             <div className="resume-card">
+            <a className="download btn btn-primary btn-sm" href={resumePdf} download> Download Resume</a>
                 <img id="resume-pdf" src={resume} alt="resume" />
-                <a className="download" href={resumePdf} download> Download Resume</a>
             </div>
             <div className="prof-card">
                 <h2 className="proficiencies">Proficiencies</h2>
@@ -18,7 +18,7 @@ export default function Resume(){
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
-                    <li>React</li>
+                    <li>React.js</li>
                     <li>Node.js</li>
                     <li>SQL</li>
                     <li>Mongoose</li>
@@ -29,7 +29,3 @@ export default function Resume(){
         </div>
     );
 }
-
-//link to downloadable resume
-//image of resume? 
-//list of proficiencies 
