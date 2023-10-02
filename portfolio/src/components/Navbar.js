@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/Nav.css';
 import { Link, useLocation } from 'react-router-dom';
 
@@ -9,7 +10,7 @@ export default function Navbar() {
     const isActiveContact = location.pathname === "/contact"
     return (
 <div className= "nav">
-    <h1>Jen Sandage</h1>
+    <h1 id="nav-name">Jen Sandage</h1>
     <Link to="/">
         <h2 className={`nav-about ${isActiveAbout ? 'nav-active-button' : ''}`}>About</h2>
     </Link>

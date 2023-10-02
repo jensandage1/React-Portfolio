@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/AboutMe.css'
 import profilePicture from '../utils/images/jen.jpg'
 

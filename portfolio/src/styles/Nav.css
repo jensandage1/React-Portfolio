@@ -1,3 +1,4 @@
+
 .nav {
     background-color: #22577A;
     display: flex;
@@ -10,6 +11,7 @@
     font-size: 6vh;
     background-color: #22577A;
   }
+
   h2{
     font-size: 4vh;
     background-color: #22577A;
@@ -51,6 +53,13 @@
   }
 
   a {
-    background-color: #22577a;
+    background-color: #22577A;
     text-decoration: none;
   }
+
+  #nav-name {
+    color: #80ed99;
+    text-shadow: 1px 0 10px #0b0025;
+  }
+
+  

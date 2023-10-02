@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import "../styles/Portfolio.css"
 import socialWhiskers from "../utils/images/social-whiskers.png";
 import newsCompiler from "../utils/images/news-compiler.png";
@@ -8,7 +9,7 @@ import portfolio from "../utils/images/non-react-portfolio.png";
 
 export default function Portfolio(){
     return (
-        <div>
+        <div className="portfolio-body">
            <h1 className="portfolio-title">Portfolio</h1>
            <div className="flex-container">
             <figure>

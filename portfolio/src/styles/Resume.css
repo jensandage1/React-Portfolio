@@ -1,12 +1,49 @@
+.resume-body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
 .resume-title {
     background-color: #38A3A5;
     display: flex;
     justify-content: center;
 }
 
+.prof-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem; 
+}
+
 .proficiencies {
     background-color: #38A3A5;
     text-decoration: underline;
+    font-size: 2.5vw;
+}
+
+li {
+    padding-bottom: 4px;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.resume-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem;
+    
+}
+
+#resume-pdf {
+    border: solid 1px black;
+    width: 35vw;
+    height: auto;
+    min-width: 300px;
+    
 }
 
 .download {
@@ -15,15 +52,8 @@
     background-color: #57CC99;
     border-radius: 4px;
     box-shadow: 2px 2px 2px #22577A;
-}
-
-img {
-    border: solid 1px black;
-    width: 30vw;
-    height: auto;
-}
-
-li {
-    padding-bottom: 4px;
-    font-weight: bold;
+    height: 20px;
+    width: 150px;
+    display:flex;
+    justify-content: center;
 }
