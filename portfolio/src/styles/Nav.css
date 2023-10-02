@@ -17,13 +17,13 @@
     background-color: #22577A;
   }
 
-  @media (max-width: 490px) {
+  @media (max-width: 495px) {
     .nav {
       display: flex;
       flex-direction: column;
     }
     h1{
-      line-height: 0
+      line-height: 1
     }
   }
 
