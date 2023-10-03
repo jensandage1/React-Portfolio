@@ -28,13 +28,12 @@ export default function Form () {
 
     const handleOnBlur=(e) => {
         const { target } = e;
-        const inputType = target.name;
         const inputValue = target.value;
 
         if(!inputValue) {
             setErrorMessage(
-                'Required Field'
-            )
+                'All Fields Are Required'
+            ); return;
         } else {
             setErrorMessage(null);
         }
@@ -48,6 +47,10 @@ export default function Form () {
                 'Invalid email address, please try again.'
             );
             return;
+        } else if (!firstName || !lastName || !message) {
+            setErrorMessage(
+                'All Fields Are Required'
+            ); return;
         }
         
         alert('Thank you! Your message has been sent.');
@@ -80,6 +83,7 @@ export default function Form () {
                 <input
                 value={lastName}
                 name="lastName"
+                onBlur={handleOnBlur}
                 onChange={handleInputChange}
                 required
                 type="text"
@@ -92,6 +96,7 @@ export default function Form () {
                 <input
                 value={email}
                 name="email"
+                onBlur={handleOnBlur}
                 onChange={handleInputChange}
                 required
                 type="email"
@@ -104,6 +109,7 @@ export default function Form () {
                 <input
                 value={message}
                 name="message"
+                onBlur={handleOnBlur}
                 onChange={handleInputChange}
                 required
                 type="text"
