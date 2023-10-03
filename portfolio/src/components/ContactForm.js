@@ -26,6 +26,19 @@ export default function Form () {
         }
     };
 
+    const handleOnBlur=(e) => {
+        const { target } = e;
+        const inputType = target.name;
+        const inputValue = target.value;
+
+        if(!inputValue) {
+            setErrorMessage(
+                'Required Field'
+            )
+        } else {
+            setErrorMessage(null);
+        }
+    }
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
@@ -56,6 +69,7 @@ export default function Form () {
                 <input
                 value={firstName}
                 name="firstName"
+                onBlur={handleOnBlur}
                 onChange={handleInputChange}
                 required
                 type="text"
