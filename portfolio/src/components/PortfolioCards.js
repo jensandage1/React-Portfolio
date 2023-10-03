@@ -1,5 +1,4 @@
 export default function PortfolioCards(props) {
-    console.log(props)
     return (
             <figure>
                 <h3 className="app-title">{props.title}</h3>
