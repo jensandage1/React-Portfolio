@@ -13,5 +13,3 @@ export default function Footer() {
     )
 }
 
-//make the links look better with css
-//sticky to the bottom of the page
