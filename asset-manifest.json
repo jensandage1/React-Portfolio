@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.3dac5063.css",
+    "main.js": "/React-Portfolio/static/js/main.fe660796.js",
+    "static/js/787.1ed0c42c.chunk.js": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/jen.jpg": "/React-Portfolio/static/media/jen.f1b50d2a131a477910fa.jpg",
+    "static/media/social-whiskers.png": "/React-Portfolio/static/media/social-whiskers.ef0161ab38fd08a1c2da.png",
+    "static/media/news-compiler.png": "/React-Portfolio/static/media/news-compiler.8ba099ab4b1da0c19724.png",
+    "static/media/non-react-portfolio.png": "/React-Portfolio/static/media/non-react-portfolio.c1cc3e35b527f9dc9e5d.png",
+    "static/media/weather-app.png": "/React-Portfolio/static/media/weather-app.63f93ad5579052378969.png",
+    "static/media/resume.pdf": "/React-Portfolio/static/media/resume.ef4f6cb45c26b6f6a95c.pdf",
+    "static/media/resume.png": "/React-Portfolio/static/media/resume.cbda8b16cb5c936130bb.png",
+    "static/media/jate-text-editor.png": "/React-Portfolio/static/media/jate-text-editor.fddffd566428774133a0.png",
+    "static/media/note-taker.png": "/React-Portfolio/static/media/note-taker.f59597c4681f8d755648.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.3dac5063.css.map": "/React-Portfolio/static/css/main.3dac5063.css.map",
+    "main.fe660796.js.map": "/React-Portfolio/static/js/main.fe660796.js.map",
+    "787.1ed0c42c.chunk.js.map": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dac5063.css",
+    "static/js/main.fe660796.js"
+  ]
+}
