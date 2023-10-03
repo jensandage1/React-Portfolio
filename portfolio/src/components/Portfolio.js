@@ -6,48 +6,62 @@ import textEditor from "../utils/images/jate-text-editor.png";
 import noteTaker from "../utils/images/note-taker.png";
 import weatherApp from "../utils/images/weather-app.png";
 import portfolio from "../utils/images/non-react-portfolio.png";
+import PortfolioCards from "./PortfolioCards";
+
+const social = {
+    title: 'Social Whiskers',
+    image: socialWhiskers,
+    appLink: "https://social-whiskers-ad907fdaaf47.herokuapp.com/",
+    repoLink: "https://github.com/edwinalban/Social-Whiskers-Pet-Adoption",
+};
+
+const news = {
+    title: "News Compiler",
+    image: newsCompiler,
+    appLink:"https://jensandage1.github.io/News-API-app-with-Definition-Searching/",
+    repoLink:"https://github.com/jensandage1/News-API-app-with-Definition-Searching",
+};
+
+const editor = {
+    title: "Text Editor",
+    image: textEditor,
+    appLink: "https://jate-text-editor-mod-19-41afa2aa7929.herokuapp.com/",
+    repoLink:"https://github.com/jensandage1/Progressive-Web-App-Text-Editor",
+};
+
+const notes = {
+    title: "Note Taker",
+    image: noteTaker,
+    appLink: "https://module-11-note-taker-challenge-7c52ae029d38.herokuapp.com/",
+    repoLink: "https://github.com/jensandage1/Module-11-Challenge-Note-Taker",
+};
+
+const weather = {
+    title: "Weather Dashboard",
+    image: weatherApp,
+    appLink: "https://jensandage1.github.io/module-6-challenge-weather-dashboard/",
+    repoLink: "https://github.com/jensandage1/module-6-challenge-weather-dashboard",
+};
+
+const port = {
+    title: "Portfolio",
+    image: portfolio,
+    appLink: "https://jensandage1.github.io/module-2-challenge-portfolio/",
+    repoLink: "https://github.com/jensandage1/module-2-challenge-portfolio",
+};
+
 
 export default function Portfolio(){
     return (
         <div className="portfolio-body">
            <h1 className="portfolio-title">Portfolio</h1>
            <div className="flex-container">
-            <figure>
-                <h3 className="app-title">Pet Adoption</h3>
-                <img className="portfolio-img"src={socialWhiskers} alt="screenshot of Social Whiskers App"/>
-                <figcaption><a className="links"href="https://social-whiskers-ad907fdaaf47.herokuapp.com/">View App</a></figcaption>
-                <figcaption><a className="links"href="https://github.com/edwinalban/Social-Whiskers-Pet-Adoption">View Repository</a></figcaption>
-            </figure>
-            <figure>
-                <h3 className="app-title">News Compiler</h3>
-                <img className="portfolio-img"src={newsCompiler} alt="screenshot of News Compiler App"/>
-                <figcaption><a className="links"href="https://jensandage1.github.io/News-API-app-with-Definition-Searching/">View App</a></figcaption>
-                <figcaption><a className="links"href="https://github.com/jensandage1/News-API-app-with-Definition-Searching">View Repository</a></figcaption>
-            </figure>
-            <figure>
-                <h3 className="app-title">Text Editor</h3>
-                <img className="portfolio-img"src={textEditor} alt="screenshot of text editor App"/>
-                <figcaption><a className="links"href="https://jate-text-editor-mod-19-41afa2aa7929.herokuapp.com/">View App</a></figcaption>
-                <figcaption><a className="links"href="https://github.com/jensandage1/Progressive-Web-App-Text-Editor">View Repository</a></figcaption>
-            </figure>
-            <figure>
-                <h3 className="app-title">Note Taker</h3>
-                <img className="portfolio-img"src={noteTaker} alt="screenshot of note taker App"/>
-                <figcaption><a className="links"href="https://module-11-note-taker-challenge-7c52ae029d38.herokuapp.com/">View App</a></figcaption>
-                <figcaption><a className="links"href="https://github.com/jensandage1/Module-11-Challenge-Note-Taker">View Repository</a></figcaption>
-            </figure>
-            <figure>
-                <h3 className="app-title">Weather Dashboard</h3>
-                <img className="portfolio-img"src={weatherApp} alt="screenshot of weather app"/>
-                <figcaption><a className="links"href="https://jensandage1.github.io/module-6-challenge-weather-dashboard/">View App</a></figcaption>
-                <figcaption><a className="links"href="https://github.com/jensandage1/module-6-challenge-weather-dashboard">View Repository</a></figcaption>
-            </figure>
-            <figure>
-                <h3 className="app-title">Portfolio</h3>
-                <img className="portfolio-img"src ={portfolio} alt="screenshot of non-React portfolio" />
-                <figcaption><a className="links"href="https://jensandage1.github.io/module-2-challenge-portfolio/">View App</a></figcaption>
-                <figcaption><a className="links"href="https://github.com/jensandage1/module-2-challenge-portfolio">View Repository</a></figcaption>
-            </figure>
+            <PortfolioCards title={social.title} image={social.image} appLink={social.appLink} repoLink={social.repoLink} />
+            <PortfolioCards title={news.title} image={news.image} appLink={news.appLink} repoLink={news.repoLink} />
+            <PortfolioCards title={editor.title} image={editor.image} appLink={editor.appLink} repoLink={editor.repoLink} />
+            <PortfolioCards title={notes.title} image={notes.image} appLink={notes.appLink} repoLink={notes.repoLink} />
+            <PortfolioCards title={weather.title} image={weather.image} appLink={weather.appLink} repoLink={weather.repoLink} />
+            <PortfolioCards title={port.title} image={port.image} appLink={port.appLink} repoLink={port.repoLink} />
            </div>
         </div>
     );
