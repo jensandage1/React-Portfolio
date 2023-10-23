@@ -5,8 +5,8 @@ import newsCompiler from "../utils/images/news-compiler.png";
 import textEditor from "../utils/images/jate-text-editor.png";
 import noteTaker from "../utils/images/note-taker.png";
 import weatherApp from "../utils/images/weather-app.png";
-import portfolio from "../utils/images/non-react-portfolio.png";
 import PortfolioCards from "./PortfolioCards";
+import fitness from "../utils/images/fitness-application.png";
 
 const social = {
     title: 'Social Whiskers',
@@ -43,12 +43,12 @@ const weather = {
     repoLink: "https://github.com/jensandage1/module-6-challenge-weather-dashboard",
 };
 
-const port = {
-    title: "Portfolio",
-    image: portfolio,
-    appLink: "https://jensandage1.github.io/module-2-challenge-portfolio/",
-    repoLink: "https://github.com/jensandage1/module-2-challenge-portfolio",
-};
+const fitnessApp = {
+    title: "Fitness App",
+    image: fitness,
+    appLink: "http://54.191.22.251:8080/",
+    repoLink: "https://github.com/MerelJac/fitness-application",
+}
 
 
 export default function Portfolio(){
@@ -61,7 +61,7 @@ export default function Portfolio(){
             <PortfolioCards title={editor.title} image={editor.image} appLink={editor.appLink} repoLink={editor.repoLink} />
             <PortfolioCards title={notes.title} image={notes.image} appLink={notes.appLink} repoLink={notes.repoLink} />
             <PortfolioCards title={weather.title} image={weather.image} appLink={weather.appLink} repoLink={weather.repoLink} />
-            <PortfolioCards title={port.title} image={port.image} appLink={port.appLink} repoLink={port.repoLink} />
+            <PortfolioCards title={fitnessApp.title} image={fitnessApp.image} appLink={fitnessApp.appLink} repoLink={fitnessApp.repoLink} />
            </div>
         </div>
     );
